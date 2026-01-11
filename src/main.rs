@@ -1,6 +1,7 @@
 mod chapter03;
 mod chapter02;
 mod chapter04;
+mod basics;
 
 fn main() {
     //chapter02::mainfun();
@@ -12,5 +13,12 @@ fn main() {
     //chapter03::expression_statement();
     //chapter03::loop_loo();
     //chapter03::disambiguator_loops();
-    chapter03::loop_reverse();
+    //chapter03::loop_reverse();
+    //basics::variables();
+    //basics::scalar_data_types();
+    //basics::compound_data_types()
+    //basics::vector_data_types();
+    //basics::slices_example();
+    //basics::string_data_types();
+    basics::function_call();
 }
