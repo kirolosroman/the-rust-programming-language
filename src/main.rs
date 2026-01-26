@@ -2,6 +2,8 @@ mod chapter03;
 mod chapter02;
 mod chapter04;
 mod basics;
+mod principles;
+mod structslf;
 
 fn main() {
     //chapter02::mainfun();
@@ -20,5 +22,7 @@ fn main() {
     //basics::vector_data_types();
     //basics::slices_example();
     //basics::string_data_types();
-    basics::function_call();
+    //basics::function_call();
+    principles::calling_function();
+    
 }
